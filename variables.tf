@@ -14,9 +14,11 @@ variable "instance_type" {
 }
 
 # AWS EC2 Instance Key Pair
-variable "instance_keypair" {
+/*variable "instance_keypair" {
   description = "AWS EC2 Key Pair that need to be associated with EC2 Instance"
   type = string
   default = "terraform-key"
 }
 //this is to test.
+
+*/
